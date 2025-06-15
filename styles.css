@@ -170,6 +170,13 @@ body {
         "main innovation cta";
 }
 
+@media (max-width: 1200px) {
+    .company-info-grid {
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
 .info-card {
     background: var(--card-bg);
     border-radius: var(--border-radius);
@@ -763,6 +770,15 @@ body {
             "main main"
             "quality team"
             "innovation cta";
+        gap: 1rem;
+    }
+    
+    .info-card {
+        padding: 1.8rem;
+    }
+    
+    .main-info {
+        padding: 2.5rem;
     }
     
     .preview-grid {
@@ -815,8 +831,27 @@ body {
         padding: 2rem;
     }
     
+    .main-info h2 {
+        font-size: 1.6rem;
+    }
+    
     .card-stats {
         gap: 1rem;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .stat-number {
+        font-size: 1.8rem;
+    }
+    
+    .card-icon {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .tech-badges {
+        justify-content: center;
     }
     
     .hero-title {
@@ -853,6 +888,66 @@ body {
     .header {
         flex-direction: row;
         justify-content: space-between;
+    }
+    
+    .company-info-grid {
+        gap: 0.8rem;
+        margin-bottom: 3rem;
+    }
+    
+    .info-card {
+        padding: 1.2rem;
+    }
+    
+    .main-info {
+        padding: 1.5rem;
+    }
+    
+    .main-info h2 {
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .main-info p {
+        font-size: 1rem;
+    }
+    
+    .card-stats {
+        margin-top: 1.5rem;
+        gap: 0.8rem;
+    }
+    
+    .stat-number {
+        font-size: 1.5rem;
+    }
+    
+    .stat-label {
+        font-size: 0.8rem;
+    }
+    
+    .info-card h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .info-card p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+    
+    .card-icon {
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .tech-badge {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+    }
+    
+    .cta-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
     }
     
     .footer-content {
